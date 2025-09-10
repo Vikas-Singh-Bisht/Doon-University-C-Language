@@ -1,0 +1,18 @@
+IF ELSE AND SWITCH
+
+
+
+1 Check wether a number is positive,negative 
+#includeM<stdio.h>
+int main(){
+int a=4;
+if (a>0)
+printf("Num is positve");
+else if (a==0)
+printf("Num is zero");
+else 
+printf("Num is Negative")
+getch();
+}
+
+
