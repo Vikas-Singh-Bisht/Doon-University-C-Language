@@ -1,4 +1,5 @@
-Helloo this repo has the assingments given by our C language teacher Mrs. Kamini 
+       .'';<br> 
+Hello   || this repo has the assingments given by our C language teacher Mrs. Kamini <br>
 <br>
 All the questions are arranged in order of assignment 
 <br>
