@@ -57,7 +57,7 @@ printf("c is greatest");
 return 0;
 }*/
 
-/*5 Check weather a character is a vowel or not */
+/*5 Check weather a character is a vowel or not 
 #include<stdio.h>
 #include<ctype.h>
 int main(){
@@ -75,7 +75,19 @@ int main(){
     return 0;
 
 }
+*/
 
 
+/*Check weather a year is leap year or not */
+#include<stdio.h>
+int main (){
+    int yr;
+    printf("Enter the year : ");
+    scanf("%d",&yr);
+    if (yr%4==0)
+    printf("Leap year");
+    else printf("not a leap year");
+return 0;
+}
 
 
