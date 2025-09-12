@@ -78,7 +78,7 @@ int main(){
 */
 
 
-/*Check weather a year is leap year or not */
+/* 6 Check weather a year is leap year or not */
 #include<stdio.h>
 int main (){
     int yr;
@@ -89,5 +89,6 @@ int main (){
     else printf("not a leap year");
 return 0;
 }
+
 
 
