@@ -57,7 +57,23 @@ printf("c is greatest");
 return 0;
 }*/
 
-/*5 Check weather a character is a vowel or not 
+
+/* 5 Check weather a year is leap year or not
+#include<stdio.h>
+int main (){
+    int yr;
+    printf("Enter the year : ");
+    scanf("%d",&yr);
+    if (yr%4==0)
+    printf("Leap year");
+    else printf("not a leap year");
+return 0;
+}
+*/
+
+
+
+/* 6 Check weather a character is a vowel or not 
 #include<stdio.h>
 #include<ctype.h>
 int main(){
@@ -73,22 +89,45 @@ int main(){
     printf("ivalid input");
     else printf("not a vowel");
     return 0;
-
 }
 */
 
 
-/* 6 Check weather a year is leap year or not */
+
+
+/* 7. Chechk weather an character is an alphabet or not 
 #include<stdio.h>
-int main (){
-    int yr;
-    printf("Enter the year : ");
-    scanf("%d",&yr);
-    if (yr%4==0)
-    printf("Leap year");
-    else printf("not a leap year");
+#include<ctype.h>
+int main(){
+char ch;
+printf("enter a character");
+scanf("%c",&ch);
+if (isalpha(ch))
+printf("Character is alphabet");
+else printf("not an alphabet");
 return 0;
 }
+*/
 
 
+
+
+/* 8. Check weather a character is uppercase ,lowercase,digit ,or special symbol*/
+#include<stdio.h>
+#include<ctype.h>
+int main(){
+char ch;
+printf("enter a character");
+scanf("%c",&ch);
+if (isalpha(ch))
+{printf("Alphabet");
+    if (islower(ch))
+     printf("Lowercase")
+    else printf("Uppercase")
+}
+else if (isdigit(ch))
+    printf("Character is digit");
+else printf("Character is an special character")
+return 0;
+}
 
