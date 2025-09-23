@@ -110,7 +110,7 @@ return 0;
 
 
 
-/* 8. Check weather a character is uppercase ,lowercase,digit ,or special symbol*/
+/* 8. Check weather a character is uppercase ,lowercase,digit ,or special symbol
 #include<stdio.h>
 #include<ctype.h>
 int main(){
@@ -127,6 +127,23 @@ else if (isdigit(ch))
     printf("Character is digit");
 else printf("Character is an special character");
 return 0;
-}
+}*/
 
 
+
+
+
+/*  9 . Find absolute value of a number */
+#include<stdio.h>
+int main (){
+    float a;
+    printf("Enter a real number : ");
+    scanf("%f",&a);
+    
+    if (a>=0)
+    printf("The absolute vakue is %f",a);
+    if (a<=0)
+    {a= a*(-1);
+    printf("the absolute value is %f",a);}
+return 0; 
+    }
