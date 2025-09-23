@@ -78,7 +78,7 @@ int main(){
 */
 
 
-/*Check weather a year is leap year or not */
+/* 6 Check weather a year is leap year or not 
 #include<stdio.h>
 int main (){
     int yr;
@@ -87,6 +87,45 @@ int main (){
     if (yr%4==0)
     printf("Leap year");
     else printf("not a leap year");
+return 0;
+}
+
+
+
+
+/* 7. Chechk weather an character is an alphabet or not 
+#include<stdio.h>
+#include<ctype.h>
+int main(){
+char ch;
+printf("enter a character");
+scanf("%c",&ch);
+if (isalpha(ch))
+printf("Character is alphabet");
+else printf("not an alphabet");
+return 0;
+}
+*/
+
+
+
+
+/* 8. Check weather a character is uppercase ,lowercase,digit ,or special symbol*/
+#include<stdio.h>
+#include<ctype.h>
+int main(){
+char ch;
+printf("enter a character");
+scanf("%c",&ch);
+if (isalpha(ch))
+{printf("Alphabet");
+    if (islower(ch))
+     printf("Lowercase");
+    else printf("Uppercase");
+}
+else if (isdigit(ch))
+    printf("Character is digit");
+else printf("Character is an special character");
 return 0;
 }
 
