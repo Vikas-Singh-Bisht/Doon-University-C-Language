@@ -133,7 +133,7 @@ return 0;
 
 
 
-/*  9 . Find absolute value of a number */
+/*  9 . Find absolute value of a number 
 #include<stdio.h>
 int main (){
     float a;
@@ -146,4 +146,4 @@ int main (){
     {a= a*(-1);
     printf("the absolute value is %f",a);}
 return 0; 
-    }
+    }*/
